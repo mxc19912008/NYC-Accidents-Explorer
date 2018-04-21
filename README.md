@@ -3,7 +3,7 @@
 ### EDAV Final Project
 ### Author: Xiaochun Ma
 ### Date: April 20, 2018
-### Interactive Shiny App: 
+### Interactive Shiny App: https://xiaochunma.shinyapps.io/NYPD_accidents_shiny/
 
 ## Introduction
 
@@ -21,6 +21,7 @@ Users can choose the index in the Accidents Explorer:
 * Accidents
 * Injuries
 * Death
+
 And the corresponding dots representing the index would show up on the map. With legend on the bottom left corner, users can easily find the dots with different color representing corresponding number of accidents/injuries/death.
 Users can also choose “Add Cluster” to visualize the clustering effects of the accidents/injuries/death on the map.
 
