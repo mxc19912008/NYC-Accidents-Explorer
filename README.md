@@ -3,6 +3,7 @@
 ### EDAV Final Project
 ### Author: Xiaochun Ma
 ### Date: April 20, 2018
+### Interactive Shiny App: 
 
 ## Introduction
 
@@ -10,7 +11,7 @@ The NYPD adds and updates new records each month for the NYPD Motor Vehicle Coll
 
 The objective was to make this data interactively visiable to the audience so that the users are able to explore patterns with respect to accidents/injuries/death. 
 
-For this final project, a Shiny application was developed that allows users to work with an interactive map and see accidents, injuries and death locations and relative number which match a users-specified selection of criteria. In developing the interactive application, the data was selected by specifying the latest 10,000 records in 2018 for quick rendering and use of the map. Details of instructions, proposed analysis and hypothesis along with summary metrics are provided in this final summary.
+For this final project, a Shiny application was developed that allows users to work with an interactive map and see accidents, injuries and death locations and relative number which match a users-specified selection of criteria. In developing the interactive application, the data was selected by specifying the latest 10,000 records in 2018 for quick rendering and use of the map. Details of instructions, proposed analysis and hypothesis are provided in this final summary.
 
 ## Proposed Analysis and Hypothesis
 
@@ -64,5 +65,19 @@ It can be seen from the barchart that there are more accidents which happened du
 
 <img src="https://github.com/mxc19912008/readme_pics/raw/master/image/time.png">  
 
+## What can be done with our analysis?
 
+* Send more police to the busier areas;
+* Send more police during rush hours;
+* Reduce speed limit for spots that have more injuries.
+
+## Future work
+
+Due to the limit of time, we did not incorporate weather data. If we can incorporate weather data, the exploration of snow/rain vs accidents/injuries/death can be done.
+
+We could have incorporate events and activities to see if the accidents are related to events and activities.
+
+We could also have made time interactively be chosen so that we can get to know where to send more police at what time periods.
+
+If we have bigger RAM, we would have input more data, which would give more robust analysis.
 
